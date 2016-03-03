@@ -14,16 +14,12 @@ standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 
 react-runtime
-react-meteor-data
-thereactivestack:blazetoreact
 
 webpack:webpack
 webpack:react
 webpack:css
 webpack:assets
 
-accounts-ui
 accounts-password
-blaze-html-templates
 kadira:react-layout
 kadira:flow-router
