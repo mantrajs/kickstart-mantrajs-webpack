@@ -1,4 +1,4 @@
-# kickstart-meteor-react-flowrouter
+# Kickstart-mantrajs-webpack
 
 Kickstart a project with Meteor, Mantra, React and FlowRouter fast!
 
