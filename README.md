@@ -1,15 +1,13 @@
-# kickstart-meteor-react-flowrouter
+# Kickstart-mantrajs-webpack
 
 Kickstart a project with Meteor, Mantra, React and FlowRouter fast!
 
 1. git clone https://github.com/mantrajs/kickstart-mantrajs-webpack.git
-1. cd kickstart-meteor-react-flowrouter
+1. cd kickstart-mantrajs-webpack
 1. npm install
 1. meteor
 
 You can try [other kickstart projects](https://github.com/thereactivestack/kickstart) with ReactRouter, FlowRouter or Redux.
-
-## [Learn how to be productive with Meteor and Webpack in 7 days on TheReactiveStack.com](https://thereactivestack.com)
 
 # Production
 You can use meteor run, meteor build, mup or anything working with Meteor.
