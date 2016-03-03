@@ -3,7 +3,7 @@
 Kickstart a project with Meteor, Mantra, React and FlowRouter fast!
 
 1. git clone https://github.com/mantrajs/kickstart-mantrajs-webpack.git
-1. cd kickstart-meteor-react-flowrouter
+1. cd kickstart-mantrajs-webpack
 1. npm install
 1. meteor
 
