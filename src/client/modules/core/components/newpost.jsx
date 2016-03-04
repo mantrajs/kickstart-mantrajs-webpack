@@ -5,7 +5,7 @@ class NewPost extends React.Component {
     const {error} = this.props;
     return (
       <div className="new-post">
-        <h2>Add New Post 123</h2>
+        <h2>Add New Post</h2>
         {error ? <p style={{color: 'red'}}>{error}</p> : null}
 
         <input ref="titleRef" type="Text" placeholder="Enter your post title." /> <br/>
