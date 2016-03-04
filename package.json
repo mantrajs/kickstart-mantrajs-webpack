@@ -2,8 +2,8 @@
   "name": "kickstart-mantrajs-webpack",
   "version": "1.0.0",
   "description": "Kickstart a project with Meteor, React and react-router fast!",
-  "main": "apps/server.js",
-  "browser": "apps/client.js",
+  "main": "src/server.js",
+  "browser": "src/client.js",
   "dependencies": {
     "react": "~0.14.1",
     "react-dom": "^0.14.6",
@@ -31,7 +31,7 @@
     "react-transform-hmr": "^1.0.1",
     "react-transform-catch-errors": "^1.0.0",
     "redbox-react": "^1.2.0",
-    
+
     "chai": "3.x.x",
     "enzyme": "^2.0.0",
     "eslint": "1.10.x",

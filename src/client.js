@@ -1,5 +1,5 @@
 import { FlowRouter } from 'meteor/kadira:flow-router';
 
-import 'Mantra/client';
+import './client/index';
 
 FlowRouter.initialize();
