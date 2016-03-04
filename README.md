@@ -9,6 +9,26 @@ Kickstart a project with Meteor, Mantra, React and FlowRouter fast!
 
 You can try [other kickstart projects](https://github.com/thereactivestack/kickstart) with ReactRouter, FlowRouter or Redux.
 
+# Hot Module Reload (HMR)
+
+Mantra prefers to use stateless (bare) react components. These components do not support HMR. If you want to use HRM, you need to use standard React components:
+
+```javascript
+// NO support for HRM
+const Navigations = () => (
+  <div>
+    <b> Navigations: </b>
+  </div>
+);
+
+// FULL Support for HRM
+class NewPost extends React.Component {
+  render() {
+    <div>Text</div>
+  }
+}
+```
+
 # Production
 You can use meteor run, meteor build, mup or anything working with Meteor.
 
