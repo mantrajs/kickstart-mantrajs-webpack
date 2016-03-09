@@ -2,6 +2,7 @@ import React from 'react';
 
 class CreateComment extends React.Component {
   render() {
+    debugger;
     const {error} = this.props;
     return (
       <div>

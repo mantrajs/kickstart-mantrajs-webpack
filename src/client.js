@@ -1,5 +1,7 @@
 import { FlowRouter } from 'meteor/kadira:flow-router';
 
-import './client/index';
+import './client/main';
 
-FlowRouter.initialize();
+Meteor.startup(function() {
+  FlowRouter.initialize();
+});
