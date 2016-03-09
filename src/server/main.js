@@ -4,8 +4,8 @@ addInitialData();
 
 // import publications and methods
 
-import publications from "./publications/index";
-import methods from "./methods/index";
+import publications from './publications/index';
+import methods from './methods/index';
 
 publications();
 methods();

@@ -4,6 +4,13 @@
   "description": "Kickstart a project with Meteor, React and react-router fast!",
   "main": "src/server.js",
   "browser": "src/client.js",
+  "scripts": {
+    "lint": "eslint ./src/lib ./src/client ./src/server --ext .js --ext .jsx",
+    "lintfix": "npm run lint -- --fix",
+    "testonly": "mocha .scripts/mocha_boot.js src/client/**/tests/**/*.js --compilers js:babel-core/register",
+    "test": "npm run lint && npm run testonly",
+    "test-watch": "npm run testonly -- --watch --watch-extensions js,jsx"
+  },
   "dependencies": {
     "react": "~0.14.1",
     "react-dom": "^0.14.6",
@@ -12,8 +19,9 @@
     "mantra-core": "^1.2.0"
   },
   "devDependencies": {
-    "babel": "^6.3.26",
-    "babel-core": "^6.3.26",
+    "babel-core": "6.x.x",
+    "babel-plugin-react-require": "2.x.x",
+    "babel-polyfill": "6.x.x",
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
     "babel-plugin-react-transform": "^2.0.0",
@@ -21,6 +29,7 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
+    "babel-root-slash-import": "1.x.x",
     "chai": "3.x.x",
     "css-loader": "^0.23.0",
     "enzyme": "^2.0.0",

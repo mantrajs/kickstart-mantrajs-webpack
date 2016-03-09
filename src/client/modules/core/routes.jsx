@@ -2,7 +2,6 @@ import React from 'react';
 import {mount} from 'react-mounter';
 
 import {FlowRouter} from 'meteor/kadira:flow-router';
- 
 import MainLayout from 'client/modules/core/components/layout.main.jsx';
 import PostList from 'client/modules/core/containers/postlist';
 import Post from 'client/modules/core/containers/post';
