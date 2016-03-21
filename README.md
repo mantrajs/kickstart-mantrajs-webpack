@@ -24,7 +24,7 @@ const Navigations = () => (
 // FULL Support for HRM
 class NewPost extends React.Component {
   render() {
-    <div>Text</div>
+    return <div>Text</div>;
   }
 }
 ```
