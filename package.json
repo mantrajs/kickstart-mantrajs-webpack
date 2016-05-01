@@ -12,11 +12,18 @@
     "test-watch": "npm run testonly -- --watch --watch-extensions js,jsx"
   },
   "dependencies": {
-    "react": "~0.14.1",
-    "react-dom": "^0.14.6",
-    "react-mounter": "^1.0.0",
     "domready": "^1.0.8",
-    "mantra-core": "^1.2.0"
+    "mantra-core": "^1.2.0",
+    "react": "~0.14.1",
+    "react-addons-create-fragment": "^0.14.8",
+    "react-addons-css-transition-group": "^0.14.8",
+    "react-addons-linked-state-mixin": "^0.14.8",
+    "react-addons-perf": "^0.14.8",
+    "react-addons-pure-render-mixin": "^0.14.8",
+    "react-addons-transition-group": "^0.14.8",
+    "react-addons-update": "^0.14.8",
+    "react-dom": "^0.14.6",
+    "react-mounter": "^1.0.0"
   },
   "devDependencies": {
     "babel-core": "6.x.x",
@@ -49,6 +56,7 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.12.9",
     "webpack-hot-middleware": "^2.4.1",
-    "expose-loader": "^0.7.1"
+    "expose-loader": "^0.7.1",
+    "babel": "^6.3.26"
   }
 }
