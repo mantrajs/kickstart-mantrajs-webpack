@@ -20,7 +20,7 @@ webpack:css
 webpack:assets
 
 accounts-password
-kadira:react-layout
 kadira:flow-router
 standard-minifier-css
 standard-minifier-js
+react-meteor-data
