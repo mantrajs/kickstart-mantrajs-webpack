@@ -14,16 +14,16 @@
   "dependencies": {
     "domready": "^1.0.8",
     "mantra-core": "^1.2.0",
-    "react": "~0.14.1",
-    "react-addons-create-fragment": "^0.14.8",
-    "react-addons-css-transition-group": "^0.14.8",
-    "react-addons-linked-state-mixin": "^0.14.8",
-    "react-addons-perf": "^0.14.8",
-    "react-addons-pure-render-mixin": "^0.14.8",
-    "react-addons-transition-group": "^0.14.8",
-    "react-addons-update": "^0.14.8",
-    "react-dom": "^0.14.6",
-    "react-mounter": "^1.0.0"
+    "react": "^15.x.x",
+    "react-addons-create-fragment": "^15.x.x",
+    "react-addons-css-transition-group": "^15.x.x",
+    "react-addons-linked-state-mixin": "^15.x.x",
+    "react-addons-perf": "^15.x.x",
+    "react-addons-pure-render-mixin": "^15.x.x",
+    "react-addons-transition-group": "^15.x.x",
+    "react-addons-update": "^15.x.x",
+    "react-dom": "^15.x.x",
+    "react-mounter": "^1.2.0"
   },
   "devDependencies": {
     "babel-core": "6.x.x",
@@ -47,16 +47,17 @@
     "jsdom": "^8.0.4",
     "jsx-control-statements": "^3.1.0",
     "mocha": "2.x.x",
-    "react-addons-test-utils": "^0.14.6",
+    "react-addons-test-utils": "^15.x.x",
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.1",
     "redbox-react": "^1.2.0",
     "sinon": "1.17.x",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.9",
+    "webpack": "^1.13.0",
     "webpack-hot-middleware": "^2.4.1",
     "expose-loader": "^0.7.1",
-    "babel": "^6.3.26"
+    "babel": "^6.3.26",
+    "json-loader": "^0.5.4"
   }
 }
